@@ -11,12 +11,12 @@ public class NurseGetAllApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(NurseGetAllApplication.class, args);
 
-		Nurse n1 = new Nurse("Ana", "Banana", 25, "Female");
-		Nurse n2 = new Nurse("Paco", "Paca", 21, "Male");
-		Nurse n3 = new Nurse("Crisso", "Neta", 22, "Female");
-		Nurse n4 = new Nurse("Banca", "Panca", 34, "Female");
-		Nurse n5 = new Nurse("Maca", "Paca", 27, "Undefined");
-		Nurse n6 = new Nurse("Rorro", "Calderas", 27, "Undefined");
+		Nurse n1 = new Nurse("Ana", "Banana");
+		Nurse n2 = new Nurse("Paco", "Paca");
+		Nurse n3 = new Nurse("Crisso", "Neta");
+		Nurse n4 = new Nurse("Banca", "Panca");
+		Nurse n5 = new Nurse("Maca", "Paca");
+		Nurse n6 = new Nurse("Rorro", "Calderas");
 
 		NurseController.nurses.add(n1);
 		NurseController.nurses.add(n2);
