@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class NurseController {
 	public static ArrayList<Nurse> nurses = new ArrayList<Nurse>();
 
-	@GetMapping("/name/{name}")
+	@GetMapping("nurse/name/{name}")
 	public static List<Nurse> getByName(@PathVariable String name) {
 		List<Nurse> nurseFound = new ArrayList<Nurse>();
 
