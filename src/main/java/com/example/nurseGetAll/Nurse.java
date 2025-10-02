@@ -2,13 +2,13 @@ package com.example.nurseGetAll;
 
 public class Nurse {
 	private String name;
-	private String surname;
+	private String lastName;
 	private int age;
 	private String genre;
 
-	public Nurse(String name, String surname, int age, String genre) {
+	public Nurse(String name, String lastName, int age, String genre) {
 		this.name = name;
-		this.surname = surname;
+		this.lastName = lastName;
 		this.age = age;
 		this.genre = genre;
 
@@ -19,7 +19,7 @@ public class Nurse {
 	}
 
 	public String getSurname() {
-		return surname;
+		return lastName;
 	}
 
 	public int getAge() {
@@ -35,7 +35,7 @@ public class Nurse {
 	}
 
 	public void setSurname(String surname) {
-		this.surname = surname;
+		this.lastName = surname;
 	}
 
 	public void setAge(int age) {
@@ -48,7 +48,7 @@ public class Nurse {
 
 	@Override
 	public String toString() {
-		return "Nurse: " + name + " " + surname + " " + age + " " + genre;
+		return "Nurse: " + name + " " + lastName + " " + age + " " + genre;
 	}
 
 }
